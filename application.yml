@@ -9,7 +9,7 @@ plugins:
     allowDirectPlaylistIds: true
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.2"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
       repository: "https://lavalink.dev"
   server:
     password: "kreon-gizli-sifre-2026"
