@@ -1,20 +1,11 @@
-﻿server:
+server:
   port: 2333
   address: 0.0.0.0
-plugins:
-  youtube:
-    enabled: true
-    allowSearch: true
-    allowDirectVideoIds: true
-    allowDirectPlaylistIds: true
 lavalink:
-  plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
-      repository: "https://lavalink.dev"
   server:
     password: "kreon-gizli-sifre-2026"
     sources:
-      youtube: false
+      youtube: true
       soundcloud: true
       bandcamp: true
       twitch: true
